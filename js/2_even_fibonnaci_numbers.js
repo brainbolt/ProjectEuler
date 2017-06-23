@@ -1,5 +1,7 @@
 'use strict';
 
+console.time('time');
+
 let n = 0;
 
 function fibonacci(previous, next) {
@@ -15,3 +17,5 @@ function fibonacci(previous, next) {
 fibonacci(1,2);
 
 console.log(n);
+
+console.timeEnd('time');

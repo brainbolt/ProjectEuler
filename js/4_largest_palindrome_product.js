@@ -1,5 +1,7 @@
 'use strict';
 
+console.time('time');
+
 let h = 0;
 
 function getIsPalindrome(n) {
@@ -17,3 +19,5 @@ for (let i = 999; i > 0; i--) {
 }
 
 console.log(h);
+
+console.timeEnd('time');

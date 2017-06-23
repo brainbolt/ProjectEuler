@@ -1,5 +1,7 @@
 'use strict';
 
+console.time('time');
+
 let n = 600851475143;
 
 function getIsPrime(n) {
@@ -28,3 +30,5 @@ function getLargestPrimeFactor(n) {
 }
 
 console.log(getLargestPrimeFactor(n));
+
+console.timeEnd('time');
